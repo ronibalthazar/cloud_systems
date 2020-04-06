@@ -1,0 +1,47 @@
+[
+      {
+        "mode": "NULLABLE", 
+        "name": "STATE", 
+        "type": "STRING"
+      }, 
+      {
+        "mode": "NULLABLE", 
+        "name": "COUNTRY", 
+        "type": "STRING"
+      }, 
+      {
+        "mode": "NULLABLE", 
+        "name": "DATE_TIME", 
+        "type": "TIMESTAMP"
+      }, 
+      {
+        "mode": "NULLABLE", 
+        "name": "CONFIRMED", 
+        "type": "INTEGER"
+      }, 
+      {
+        "mode": "NULLABLE", 
+        "name": "DEATHS", 
+        "type": "INTEGER"
+      }, 
+      {
+        "mode": "NULLABLE", 
+        "name": "RECOVERED", 
+        "type": "INTEGER"
+      }, 
+      {
+        "mode": "NULLABLE", 
+        "name": "ACTIVE", 
+        "type": "INTEGER"
+      }, 
+      {
+        "mode": "NULLABLE", 
+        "name": "LATITUDE", 
+        "type": "FLOAT"
+      }, 
+      {
+        "mode": "NULLABLE", 
+        "name": "LONGITUDE", 
+        "type": "FLOAT"
+      }
+]
