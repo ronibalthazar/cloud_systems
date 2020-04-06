@@ -67,7 +67,7 @@ The second change made using the shell script was also related to the dates. The
 
 Another challenge was that country names were not standard in the CSV files. For instance, in some files the country name was “US” and in other files, it was “United States”. The Pig Latin script was used to create a standard over the country names.
 
-	Since this project is of my interest, I will continue to update the data and add new features and comparisons after the assignment is graded.
+Since this project is of my interest, I will continue to update the data and add new features and comparisons after the assignment is graded.
 
 **References**
 
