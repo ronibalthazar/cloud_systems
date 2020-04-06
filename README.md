@@ -26,6 +26,7 @@ The application is called APPCOMPARE and consists of 5 dashboard pages:
 - Cases Evolution Per Country - Animation
 - Country Comparison Since First Reported Case
 - Death Rate Comparison / New Cases Evolution
+
 The technology choice was based on what data was available and how to present the data to the end-user. Google Cloud Platform (GCP) was the Cloud Platform of choice. It was used to create an Apache Hadoop cluster on Dataproc, which was used to store the source datasets on HDFS and process the data. Apache Pig was also used and a Pig Latin script was used to perform the data transformation. A GCP storage bucket was created to store the processed data used by GCP BigQuery, that was the data warehouse used in the project.
 Initially, Grafana was used as a frontend, but to keep the app running we would need to also keep an instance running since the free Grafana Cloud doesn’t allow public sharing. Google Data Studio was then chosen as the project’s frontend because it is free, permits public sharing, and the app could run with a very low cost consuming only BigQuery and eventually the Hadoop cluster and the bucket while the data is updated.
 
